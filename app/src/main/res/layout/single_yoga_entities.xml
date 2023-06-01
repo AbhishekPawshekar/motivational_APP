@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:layout_marginTop="20dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginLeft="10dp"
+    android:id="@+id/yoga_card_ui">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/image_yoga_ui"
+        android:layout_marginBottom="50dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_marginBottom="10dp"
+        android:textColor="@color/dark_blue"
+        android:textSize="16dp"
+        android:id="@+id/static_name_yoga"
+        android:fontFamily="serif"
+        />
+</RelativeLayout>
+</androidx.cardview.widget.CardView>

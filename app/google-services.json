@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "207564301851",
+    "project_id": "non-suicidal-app",
+    "storage_bucket": "non-suicidal-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:207564301851:android:577952bc176a190c743abe",
+        "android_client_info": {
+          "package_name": "com.example.non_suicidal_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "207564301851-lnku75pg7ejcgs0dtceuh1fth935820b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDy2MwE-usFm3DKvM1qzcxJcpA_HqIHh2k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "207564301851-lnku75pg7ejcgs0dtceuh1fth935820b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

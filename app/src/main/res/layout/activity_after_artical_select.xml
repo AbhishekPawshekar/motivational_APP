@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".after_artical_select"
+    android:background="@drawable/background"
+    android:orientation="vertical">
+<include layout="@layout/toolbar"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="60dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:textStyle="bold"
+        android:textColor="@color/dark_blue"
+        android:fontFamily="serif"
+        android:gravity="center"
+        android:id="@+id/header_artical"
+        android:textSize="16dp"
+        />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="100dp"
+                android:textStyle="italic"
+                android:layout_alignTop="@+id/header_artical"
+                android:textColor="@color/dark_blue"
+                android:fontFamily="serif"
+                android:gravity="center"
+                android:id="@+id/description_artical"
+                android:textSize="14dp"
+                />
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

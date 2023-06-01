@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.non_suicidal_app">
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/sucidal_app_icon"
+        android:label="Mind Stabilizer"
+        android:roundIcon="@drawable/sucidal_app_icon"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Non_suicidal_app">
+        <activity android:name=".after_search_find_wrong_input"></activity>
+        <activity
+            android:name=".search_text"
+            android:label="@string/title_activity_search_text"
+            android:theme="@style/Theme.Non_suicidal_app.NoActionBar" />
+        <activity android:name=".after_artical_select" />
+        <activity android:name=".after_yoga_select" />
+        <activity
+            android:name=".account_click"
+            android:theme="@style/Theme.Non_suicidal_app.NoActionBar" />
+        <activity
+            android:name=".adminview"
+            android:theme="@style/Theme.Non_suicidal_app.NoActionBar" />
+        <activity
+            android:name=".registration_click"
+            android:theme="@style/Theme.Non_suicidal_app.NoActionBar" />
+        <activity
+            android:name=".login_page"
+            android:theme="@style/Theme.Non_suicidal_app.NoActionBar">
+        </activity>
+        <activity
+            android:name=".meditation_click"
+            android:theme="@style/Theme.Non_suicidal_app.NoActionBar" />
+        <activity
+            android:name=".artical_click"
+            android:theme="@style/Theme.Non_suicidal_app.NoActionBar" />
+        <activity
+            android:name=".yoga_click"
+            android:label="@string/title_activity_yoga_click"
+            android:theme="@style/Theme.Non_suicidal_app.NoActionBar" />
+        <activity android:name=".motivation_click" />
+        <activity
+            android:name=".main_page"
+            android:label="@string/title_activity_main_page"
+            android:theme="@style/Theme.Non_suicidal_app.NoActionBar" />
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/Theme.Non_suicidal_app.NoActionBar"
+            ><intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter></activity>
+    </application>
+
+</manifest>
